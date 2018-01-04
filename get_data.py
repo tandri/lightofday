@@ -53,6 +53,11 @@ TZ = timezone(timedelta(0))# not used
 # LNG = -25.68
 # TZ = timezone(timedelta(hours=-1))# not used
 
+# # Praia
+# PLACE_NAME = 'PRA'
+# LAT = 14.933
+# LNG = -23.513
+# TZ = timezone(timedelta(hours=-1))# not used
 
 # # Husavik
 # PLACE_NAME = 'HVK'
@@ -86,11 +91,6 @@ TZ = timezone(timedelta(0))# not used
 # LNG = -70.67
 # TZ = timezone(timedelta(hours=-5))# not used
 
-# Praia
-PLACE_NAME = 'PRA'
-LAT = 14.933
-LNG = -23.513
-TZ = timezone(timedelta(hours=-1))# not used
 
 
 FILE_NAME = PLACE_NAME+str(YEAR)+'.pkl'
