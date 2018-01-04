@@ -172,7 +172,7 @@ def average_daylight_by_month( data, start_time=0, stop_time=24*60*60 ):
 
     first_day_of_months = [date(year,month,1) for month in range(1,13)]
     month_indices = dates.searchsorted(first_day_of_months)
-    month_indices = np.append(month_indices, -1) # convenience
+    month_indices = np.append(month_indices, None) # convenience
     
 
     sunlight_hours = np.zeros(12)
