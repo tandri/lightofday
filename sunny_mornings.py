@@ -94,7 +94,7 @@ def sunny_mornings_by_month( data, wake_time ):
     first_day_of_months = [date(year,month,1) for month in range(1,13)]
     month_indices = dates.searchsorted(first_day_of_months)
     # convenience:
-    month_indices = np.append(month_indices, -1)
+    month_indices = np.append(month_indices, None)
 
     sunny_mornings = np.zeros(12)
     twilight_mornings = np.zeros(12)
