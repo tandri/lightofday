@@ -25,6 +25,11 @@ UTC_OFFSET = -1
 # # Offset in hours from UTC in winter.
 # UTC_OFFSET = -1
 
+# LOC = 'PRA'
+# LOCNAME = r' í Praia'
+# # Offset in hours from UTC in winter.
+# UTC_OFFSET = -1
+
 
 # LOC = 'HVK'
 # LOCNAME = r' á Húsavík'
