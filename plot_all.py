@@ -125,7 +125,7 @@ make_sunshine_carpet_plot( carpet_wake, carpet_sleep, LOC, LOCNAME, YEAR, DPI, s
 midnight = time(0,0,0)
 make_daylight_hours_plot( midnight, midnight, LOC, LOCNAME, YEAR, DPI, daylight_hours_colors, shift_data )
 
-wake_hrs = np.arange(6,12)
+wake_hrs = np.arange(5,12)
 sleep_hrs = (wake_hrs+16)%24
 
 work_hrs = (wake_hrs+9)%24
