@@ -6,6 +6,7 @@ Intended for the northern hemisphere.
 Does not work for extreme latitudes (>67˚N).
 Not tested for longitudes far from 0˚.
 
+Blog post (in Icelandic): https://tandrigauksson.wordpress.com/2018/01/07/ef-vid-stillum-klukkuna/
 
 Written in: Python 3.6.2
 
